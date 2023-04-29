@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis Juegos</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
+</head>
+<body>
+    <h1>Juego del Ahorcado</h1>
+    <div class="container">        
+		<div class="box">
+            <h2>Sección de Imagen</h2>
+            <hr>
+            <div class="image-section">
+                <!-- Aquí se muestra la imagen del ahorcado -->
+                
+
+                <img class="poste" src="./img/poste.png" alt="poste">
+
+                <img class="lazo visible" src="./img/lazo.png" alt="lazo">
+                
+                <img class="cabeza  visible" src="./img/cabeza.png" alt="cabeza">  
+
+                <img class="cuerpo  visible" src="./img/cuerpo.png" alt="cuerpo">
+
+                <img class="piernaderecha  visible" src="./img/piernaderecha.png" alt="piernaderecha">
+
+                <img class="piernaizquierda  visible" src="./img/piernaizquierda.png" alt="piernaizquierda">                
+
+                <img class="brasoderecho  visible" src="./img/brazoderecho.png" alt="brasoderecho">
+
+                <img class="brasoizquierdo  visible" src="./img/brazoizquierdo.png" alt="brasoizquierdo">
+
+            </div>
+        </div>
+		<div class="box">
+            <h2>Sección de Teclas</h2>
+            <hr>
+            <h2>Palabra a Buscar</h2>
+            <div class="word-section">
+                
+            </div>
+            <hr>
+            <div class="letter-section">
+                <!-- Aquí se muestran los botones con las letras del abecedario -->
+
+            </div>
+            <hr>
+            <div class="action-buttons">
+                <!-- Aquí se muestran los botones de acción -->
+                <button class="action-button nuevo">Nuevo Juego</button>
+                <button class="action-button salir">Salir</button>
+            </div>
+        </div>
+	</div>
+
+    <script src="./js/app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>

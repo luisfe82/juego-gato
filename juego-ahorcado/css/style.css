@@ -1,0 +1,106 @@
+h1,h2{
+    text-align: center;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+.box{
+    width: 50%;
+    height: 500px;
+    background: lightblue;
+}
+.visible{
+    display: none;
+}
+
+.image-section {
+    position: relative;
+    margin-top: 50px;    
+}
+.poste{
+    position: absolute;
+    width: 320px;
+    left: 20%;
+}
+.lazo{
+    position: absolute;
+    width: 50px;
+    top: 5px;
+    right: 35%;
+}
+.cabeza{
+    position: absolute;
+    width: 80px;
+    top: 47px;
+    right: 32%;
+}
+.cuerpo{
+    position: absolute;
+    width: 80px;
+    top: 120px;
+    right: 31%;
+}
+.brasoderecho{
+    position: absolute;
+    width: 43px;
+    top: 71px;
+    right: 39%;
+}
+.brasoizquierdo{
+    position: absolute;
+    width: 43px;
+    top: 70px;
+    right: 29%;
+}
+.piernaderecha{
+    position: absolute;
+    width: 43px;
+    top: 175px;
+    right: 37%;
+}
+.piernaizquierda{
+    position: absolute;
+    width: 48px;
+    top: 175px;
+    right: 30%;
+}
+.word-section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: 50px; */
+    font-size: 30px;
+}
+.word-section button{
+    font-size: 20px;
+}
+.letter-section{
+    padding: 10px 20px 10px 20px;
+}
+.letter-button {
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    background-color: #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.action-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.action-button {
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    background-color: #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+}
