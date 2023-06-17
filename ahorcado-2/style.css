@@ -1,0 +1,20 @@
+#hangman {
+    width: 200px;
+    height: 200px;
+    background-color: lightgray;
+  }
+  
+  #letters {
+    margin-top: 20px;
+  }
+  
+  #letters span {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    text-align: center;
+    margin-right: 5px;
+    cursor: pointer;
+  }
+  
