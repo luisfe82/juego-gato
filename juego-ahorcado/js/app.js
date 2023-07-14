@@ -1,6 +1,9 @@
 const listaBotones = document.querySelector(".letter-section");
 const nuevoJuego = document.querySelector(".nuevo");
 const imagenAhorcado = document.querySelector(".image-section");
+const seccionImagen = document.querySelector(".seccion_imagen");
+
+// Como crear elementos para .image-section
 
 const MAX_INTENTOS=8;
 var totalLetras = 0,
@@ -30,6 +33,8 @@ var palabras = [
   "bootstrap",
 ];
 
+console.log("hola");
+
 // Seleccionamos una palabra al azar
 var palabraAdivinar =
   palabras[Math.floor(Math.random() * palabras.length)].split("");
@@ -39,9 +44,19 @@ console.log(palabraAdivinar);
 // Creamos un arreglo para guardar las letras adivinadas
 var letrasAdivinadas = new Array(palabraAdivinar.length).fill("_");;
 
+// generar_img();
 cargarEventListeners();
 imprimirLetras();
 imprimirPalabra();
+
+// function generar_img() {
+//   const h2 = document.createElement("h2");
+//   h2.innerHTML = "Sección de Imagen";
+//   seccionImagen.appendChild(h2);
+//   const hr = document.createElement("hr");
+//   seccionImagen.appendChild(hr);
+  
+// }
 
 function cargarEventListeners() {
   listaBotones.addEventListener("click", inhabilitarBoton);
