@@ -1,0 +1,35 @@
+h1,
+h2,
+h3 {
+  font-family: "Lumanosimo", cursive;
+  margin: 0;
+}
+
+p,
+h4,
+h5,
+h6 {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+
+h1 {
+  letter-spacing: 2px;
+  font-size: clamp(1.8rem, 13vw, 4rem);
+  color: blue;
+  padding: 1rem;
+}
+span {
+  color: gray;
+}
+
+h4 {
+  line-height: 1.5;
+  font-size: max(1.2rem, 1.2vw);
+  padding-bottom: 1rem;
+}
+
+.container {
+  background-color: darkturquoise;
+  text-align: center;
+}
